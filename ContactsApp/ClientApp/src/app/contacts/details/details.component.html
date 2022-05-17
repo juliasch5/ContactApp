@@ -1,0 +1,27 @@
+<div class="container">
+  <br />
+  <h3>Contact Details</h3>
+  <br />
+  <div class="card">
+    <div class="card-header">
+      <div class="row">
+        <div class="col">
+          <h4>{{ contact.firstName }}</h4>
+        </div>
+        <div class="col text-right">
+          <a href="#" routerLink="/contact/list" class="btn btn-secondary btn-sm">Back To Contacts List</a>
+        </div>
+      </div>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><b>Id:</b> {{ contact.id }}</li>
+      <li class="list-group-item"><b>First Name:</b> {{ contact.firstName }}</li>
+      <li class="list-group-item"><b>Last Name:</b> {{ contact.lastName }}</li>
+      <li class="list-group-item"><b>Email:</b> {{ contact.email }}</li>
+      <li class="list-group-item"><b>Password:</b> {{ contact.password }}</li>
+      <li class="list-group-item"><b>Category:</b> {{ contact.category }}</li>
+      <li class="list-group-item"><b>Phone:</b> {{ contact.phone }}</li>
+      <li class="list-group-item"><b>Date of birth:</b> {{ contact.dateOfBirth }}</li>
+    </ul>
+  </div>
+</div>
